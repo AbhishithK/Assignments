@@ -23,7 +23,7 @@ def balancebracket(s):
     else:
         return False
     
-s = "([])()()"
+s = input()
 function = balancebracket(s)
 print(function)
             
