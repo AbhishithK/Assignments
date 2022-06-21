@@ -14,8 +14,8 @@ def sumvalue(array,target):
         return "No value adds up to 10"
     else:
         return b
-array = [7,3,6,4,2]
-t = 10
+array = [int(x) for x in input().split()] 
+t = int(input())
 a = sumvalue(array,t)
 print(a)
     
